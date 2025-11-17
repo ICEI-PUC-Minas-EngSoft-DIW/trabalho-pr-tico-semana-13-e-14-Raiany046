@@ -23,4 +23,4 @@ Realizei testes inserindo, editando e removendo registros no db.json.
 
 ![Print GET](imge/Capturar.JPG)
 
-![Print GET](imge/segund-o.jpg)
+![Print GET](imge/segund-o.JPG)
