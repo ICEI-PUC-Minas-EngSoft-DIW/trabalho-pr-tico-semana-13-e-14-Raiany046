@@ -1,18 +1,39 @@
 {
-  "usuarios": [
+  "obras": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "2",
+      "titulo": "Caveira Coroada - 1981",
+      "descricao": "<b>Reflexão sobre poder e reconhecimento na arte.</b>",
+      "conteudo": "<br><b>Contexto:</b> Criada durante o período de transição de Basquiat do grafite de rua, sob o pseudônimo SAMO, para o reconhecimento na galeria de arte. A obra foi exibida em sua primeira exposição individual em Nova York.<br><br><b>Inspiração:</b> O interesse do artista em anatomia começou na infância, após sua mãe lhe dar um exemplar de Gray's Anatomy quando ele estava hospitalizado por um acidente. Essa fascinação se reflete na representação de caveiras e cabeças ao longo de sua carreira.<br><br><b>Características:</b> A pintura de 1981 é marcada por uma intensa energia e uma estética de 'dentro e fora', com a caveira mostrando a estrutura óssea e o crânio de forma desconstruída, mas com olhos, nariz e boca visíveis. A peça explora a dualidade entre vida e morte.",
+      "imagem": "img/caveira-coroada.jpg"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "3",
+      "titulo": "Ironia do Policial Negro - 1981",
+      "descricao": "<b>Crítica à brutalidade policial e ao racismo nos EUA.</b>",
+      "conteudo": "<br><b>A ironia central:</b> O título da obra sugere a contradição de um policial negro, que faz parte de uma comunidade oprimida, trabalhando para uma instituição que historicamente perpetuou a brutalidade e o racismo contra pessoas negras.<br><br><b>Opressor e oprimido:</b> Ao vestir o uniforme da polícia, a figura se torna, simultaneamente, vítima e agente de um sistema opressor. Isso aponta para a complexidade da opressão institucional, que pode levar membros de grupos marginalizados a colaborar com as estruturas que os exploram.<br><br><b>Crítica social:</b> Basquiat, um artista negro com experiências de marginalização, usava sua arte para abordar questões sociais de forma crua e direta. A obra critica não apenas a brutalidade policial, mas também a lógica do racismo estrutural, que força oprimidos a reproduzir a opressão.<br><br><b>Estilo artístico:</b> A estética de Basquiat, que mistura o grafite com o expressionismo, reforça a mensagem da pintura. As pinceladas intensas, os traços infantis e a figura esquemática criam uma sensação de urgência e crítica social.",
+      "imagem": "img/police.jpg"
+    },
+    {
+      "id": "4",
+      "titulo": "Pescaria - 1981",
+      "descricao": "<b>Pescaria (ou 'Sem Título') é uma pintura neo-expressionista de Jean-Michel Basquiat de 1981.</b>",
+      "conteudo": "<br>A obra retrata uma figura de pescador, com traços de seu esqueleto visíveis e um peixe pendurado na linha, emergindo de sua transição de artista de rua para o mundo das galerias de arte. A pintura é caracterizada por seu estilo enérgico, uso de cores vibrantes e pinceladas rápidas, refletindo as influências da street art.",
+      "imagem": "img/pescaria.jpg"
+    },
+    {
+      "id": "5",
+      "titulo": "Pássaro no Dinheiro - 1981",
+      "descricao": "<b>Bird on Money é uma pintura de 1981 criada pelo artista americano Jean-Michel Basquiat.</b>",
+      "conteudo": "<br>Trata-se de uma pintura abstrata no estilo neoexpressionista e presta homenagem ao músico de jazz Charlie Parker, idolatrado por Basquiat.<br><br>A complexidade e a disposição livre desta pintura representam uma galinha ou passarinho, apelido pelo qual Parker era conhecido. A desordem espontânea de formas e símbolos parece imitar as composições improvisadas de jazz do estilo de tocar de Charlie Parker. Há um primitivismo quase espiritual na arte de Basquiat, e ele gostava de pintar com o público.<br><br>As palavras 'Para Morir', que se traduzem como 'Morrer', estão presentes, assim como as palavras 'Green Wood' acima de um cemitério. Green Wood é onde Basquiat nasceu, e o cemitério é seu último local de descanso.",
+      "imagem": "img/passaro.jpg"
+    },
+    {
+      "id": "bf26",
+      "titulo": "7. Sem título (Boxeador) (1982)",
+      "descricao": "O box é um tema que surge várias vezes na obra do artista, sendo retratado na famosa sessão fotográfica que Basquiat fez com Andy Warhol",
+      "conteudo": "O box é um tema que surge várias vezes na obra do artista, sendo retratado na famosa sessão fotográfica que Basquiat fez com Andy Warhol.\n\nEm Sem título (Boxeador), vemos um homem grande e musculoso, cujo corpo ocupa quase toda a tela. A sua força física é inegável, com os músculos sublinhados por linhas brancas.\n\nOs braços no alto sugerem comemoração, vitória. Contudo, a coroa de espinhos na cabeça remete para a ideia de sofrimento, confirmada por uma cara quase desfigurada.\n\nÉ possível que Basquiat se identificasse com esta figura. Afroamericano, filho de imigrantes e parte da classe trabalhadora, o artista batalhou muito para conquistar tudo o que teve.\n\nPor isso, talvez se visse como um boxeador, disposto a levar pancadas da vida para ter sucesso. No box, apesar do racismo da época, reinavam homens negros como Joe Louis e Muhammad Ali, ídolos do pintor.\n\nAssim, os punhos fechados e erguidos no ar também podem ser uma referência ao movimento civil que reclamava o empoderamento negro.",
+      "imagem": "https://cdn.culturagenial.com/imagens/boxeador-cke.jpg?class=article"
     }
   ]
 }

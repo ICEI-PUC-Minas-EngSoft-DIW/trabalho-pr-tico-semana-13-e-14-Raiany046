@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+.conteiner {
+    display: flex;
+}
+.carousel-caption a {
+  color: #ffffff; 
+  text-decoration: none; /* remove o sublinhado */
+  font-weight: bold;
+}
+
+.carousel-caption a:hover {
+  color: #f5c518; /* cor ao passar o mouse — dourado */
+  text-decoration: underline; /* opcional */
+}

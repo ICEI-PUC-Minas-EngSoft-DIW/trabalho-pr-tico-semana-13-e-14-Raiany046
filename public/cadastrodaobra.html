@@ -1,0 +1,36 @@
+<form id="form-obra">
+  <input type="text" name="titulo" placeholder="Título" required>
+  <input type="text" name="descricao" placeholder="Descrição" required>
+  <textarea name="conteudo" placeholder="Conteúdo"></textarea>
+  <input type="text" name="imagem" placeholder="URL da imagem">
+  <button type="submit">Cadastrar</button>
+</form>
+<a href="index.html" class="btn btn-secondary mb-4">Voltar</a>
+<script>
+const form = document.getElementById("form-obra");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+  const novaObra = Object.fromEntries(formData);
+
+  try {
+    const res = await fetch("http://localhost:3000/obras", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(novaObra)
+    });
+
+    if (res.ok) {
+      alert("Obra cadastrada com sucesso!");
+      form.reset();
+    } else {
+      alert("Erro ao cadastrar obra");
+    }
+  } catch (error) {
+    console.error("Erro ao cadastrar obra:", error);
+  }
+});
+
+</script>
